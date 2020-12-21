@@ -1,0 +1,50 @@
+{
+    "html": {
+        "avatarOverlay": "Modifier"
+    },
+    "js": {
+        "login": {
+            "error": {
+                "invalidValue": "* Valeur Incorrecte",
+                "requiredValue": "* Requis",
+                "userMigrated": {
+                    "title": "Une erreur est survenue:<br>Email ou Mot de Passe Incorrect",
+                    "desc": "Vous avez essayé de vous connecter avec un compte migré. Essayez d'utiliser un compte avec une Adresse email au lieu d'un nom d'utilisateur"
+                },
+                "invalidCredentials": {
+                    "title": "Une erreur est survenue:<br>Email ou Mot de Passe Incorrect",
+                    "desc": "L'email ou le mot de passe que vous avez entré est incorrect. Veuillez réessayer."
+                },
+                "rateLimit": {
+                    "title": "Une erreur est survenue:<br>Trop d'essaie incorrects",
+                    "desc": "Vous avez essayé de vous connnecter trop de fois sans succés. Réessayez plus tard :("
+                },
+                "noInternet": {
+                    "title": "Une erreur est survenue:<br>Aucune connexion internet",
+                    "desc": "Vous devez être connecté pour pouvoir jouer sur Okaili. Veuillez vous connecter à internet et réessayer"
+                },
+                "authDown": {
+                    "title": "Une erreur est survenue:<br>Serveur d'authentification Hors Ligne",
+                    "desc": "Le serveur d'authentification de Mojang est actuellement hors ligne ou en maintenance. Veuillez attendre quelques heures/minutes et réessayer. Vous pouvez consulter le statut des serveurs sur : <a href=\"https://help.mojang.com/\">Portail d'aide de Mojang</a>."
+                },
+                "notPaid": {
+                    "title": "Une erreur est survenue:<br>Jeu non acheté ou illegal",
+                    "desc": "Le compte auquel vous avez essayé de vous connecter est une copie non acheté et/ou illégale.<br>Vous devez acheter une copie légale sur : <a href=\"https://minecraft.net/\">Minecraft.net</a>"
+                },
+                "unknown": {
+                    "title": "Une erreur est survenue:<br>Erreur inconnue",
+                    "desc": "Veuillez me contacter pour plus d'information sur mon instagram : @earth_lumirl ou ouvrez une issue sur : <a href=\"https://github.com/CodYanJS/Okaili/Issues/\">Mon github</a>"
+                }
+            },
+            "login": "CONNEXION",
+            "loggingIn": "SE CONNECTER",
+            "success": "Succés",
+            "tryAgain": "Réessayez"
+        },
+        "landing": {
+            "launch": {
+                "pleaseWait": "Veuillez patienter.."
+            }
+        }
+    }
+}
